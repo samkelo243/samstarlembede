@@ -5,9 +5,9 @@ use PHPMailer\PHPMailer\Exception;
 
 
 // The path for Exception.php was inconsistent, fixing it to match the others.
-require '/Users/Dell/Documents/JNK/phpmailer/src/Exception.php'; 
-require '/Users/Dell/Documents/JNK/phpmailer/src/PHPMailer.php';
-require '/Users/Dell/Documents/JNK/phpmailer/src/SMTP.php';
+require '/samstarlembede/phpmailer/src/Exception.php'; 
+require '/samstarlembede/phpmailer/src/PHPMailer.php';
+require '/samstarlembede/phpmailer/src/SMTP.php';
 
 
 if ($_SERVER["REQUEST_METHOD"] == "POST") {
@@ -95,3 +95,4 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     echo "There was a problem with your submission, please try again.";
 }
 ?>
+
