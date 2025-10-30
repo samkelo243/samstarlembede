@@ -39,7 +39,7 @@ body {
 .hero {
   position: relative;
   height: 100vh;
-  background: url('samstarlembede/pictures/room.jpg') center/cover no-repeat;
+  background: url('/samstarlembede/pictures/room.jpg') center/cover no-repeat;
 }
 .hero::after {
   content: "";
@@ -531,3 +531,4 @@ footer {
     border-color: #999;
 
 }
+
