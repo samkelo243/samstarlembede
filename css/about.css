@@ -1,0 +1,16 @@
+/* Hero Section */
+.about-hero {
+    background: url("/pictures/room.jpg") center/cover no-repeat;
+    min-height: 50vh; /* Height of the section */
+    display: flex;
+    align-items: center; /* Vertical alignment */
+}
+
+#grad {
+  background-image: linear-gradient(to right, red , yellow);
+}
+
+/* Call to Action */
+.cta-section {
+    border-top: 5px solid #fff;
+}
